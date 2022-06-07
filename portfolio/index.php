@@ -121,9 +121,19 @@
       <div class="w3-dark-grey" style="height:28px;width:60%"></div>
     </div>
 
+    <p class="w3-wide">Chrome dev tools</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+
     <p class="w3-wide">Git && Github</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+
+    <p class="w3-wide">Phpmyadmin</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
     
     <br>
