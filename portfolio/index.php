@@ -322,7 +322,7 @@ class portfolio{
     //define the landing page 
     public function landingPage(){
 
-        echo $this->landing_page = '<h1>portfolio</h1>';
+        echo $this->landing_page = '<h1 class="w3-container">portfolio</h1>';
 
     }
 
