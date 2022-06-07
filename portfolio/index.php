@@ -1,4 +1,42 @@
-<!DOCTYPE html>
+<?php
+
+/**Author : Oladele John
+
+** © 2022 Oladele John
+
+** Portfolio
+
+** File name : index.php
+
+** About : this module displays the landing page of the portfolio
+
+*/  
+
+/**PSUEDO ALGORITHM
+ * *
+ * initiate the portfolio class
+ * define the landing page 
+ * cache the landing page
+ * 
+ * *
+ */
+
+//cache library
+require('../vendor/autoload.php');
+use Phpfastcache\CacheManager;
+use Phpfastcache\Config\ConfigurationOption;
+
+//initiate the portfolio class
+class portfolio{
+
+    public $landing_page;
+
+    //define the landing page 
+    public function landingPage(){
+
+        $this->landing_page = '
+        
+        <!DOCTYPE html>
     <html>
         <head>
             <title>Oladele John | Portfolio</title>
@@ -65,7 +103,7 @@
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <img src="/images/monkeyNFT.png" alt="avatar" class="w3-image" width="300px" height="300px">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Oladele John.</h1>
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I Am</span> Oladele John.</h1>
     <p>Full Stack Web Developer.</p>
   </header>
 
@@ -256,7 +294,7 @@
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 09061811990</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: johnoladele690@gmail.com</p>
     </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+    <p>Wanna get in touch. Send me a message:</p>
 
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
@@ -285,44 +323,8 @@
 
 </body>
 </html>
-
-<?php
-
-/**Author : Oladele John
-
-** © 2022 Oladele John
-
-** Portfolio
-
-** File name : index.php
-
-** About : this module displays the landing page of the portfolio
-
-*/  
-
-/**PSUEDO ALGORITHM
- * *
- * initiate the portfolio class
- * define the landing page 
- * cache the landing page
- * 
- * *
- */
-
-//cache library
-require('../vendor/autoload.php');
-use Phpfastcache\CacheManager;
-use Phpfastcache\Config\ConfigurationOption;
-
-//initiate the portfolio class
-class portfolio{
-
-    public $landing_page;
-
-    //define the landing page 
-    public function landingPage(){
-
-        $this->landing_page = '<div align="center" class="w3-container">portfolio</h1>';
+        
+        ';
 
     }
 
@@ -358,7 +360,7 @@ class portfolio{
 
 }
 
-$portfolio = new portfolio();
+$portfolio = new portfolio(); 
 
 $portfolio->landingPage();
 
