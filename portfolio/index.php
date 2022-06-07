@@ -285,3 +285,83 @@
 
 </body>
 </html>
+
+<?php
+
+/**Author : Oladele John
+
+** © 2022 Oladele John
+
+** Portfolio
+
+** File name : index.php
+
+** About : this module displays the landing page of the portfolio
+
+*/  
+
+/**PSUEDO ALGORITHM
+ * *
+ * initiate the portfolio class
+ * define the landing page 
+ * cache the landing page
+ * 
+ * *
+ */
+
+//cache library
+require('../vendor/autoload.php');
+use Phpfastcache\CacheManager;
+use Phpfastcache\Config\ConfigurationOption;
+
+//initiate the portfolio class
+class portfolio{
+
+    public $landing_page;
+
+    //define the landing page 
+    public function landingPage(){
+
+        $this->landing_page = '<h1>portfolio</h1>';
+
+    }
+
+    //cache the landing page
+    public function cacheLandingPage(){
+
+        CacheManager::setDefaultConfig(new ConfigurationOption([
+            'path' => '', // or in windows "C:/tmp/"
+        ]));
+        
+        $InstanceCache = CacheManager::getInstance('files');
+        
+        $key = "home_page";
+        $Cached_page = $InstanceCache->getItem($key);
+        
+        if (!$Cached_page->isHit()) {
+            $Cached_page->set($this->home_page)->expiresAfter(1);//in seconds, also accepts Datetime
+    
+            $InstanceCache->save($Cached_page); // Save the cache item just like you do with doctrine and entities
+        
+            echo $Cached_page->get();
+            //echo 'FIRST LOAD // WROTE OBJECT TO CACHE // RELOAD THE PAGE AND SEE // ';
+         
+        } else { 
+            
+            echo $Cached_page->get();
+            //echo 'READ FROM CACHE // ';
+        
+            $InstanceCache->deleteItem($key);
+        } 
+
+    }
+
+}
+
+$portfolio = new portfolio();
+
+$portfolio->landingPage();
+
+$portfolio->cacheLandingPage();
+
+?>
