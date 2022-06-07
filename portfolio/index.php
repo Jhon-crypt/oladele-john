@@ -24,8 +24,9 @@
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
+  <!-- Avatar image in top left corner 
   <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  -->
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -58,7 +59,7 @@
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <img src="/images/monkeyNFT.png" alt="boy" class="w3-image" width="300px" height="300px">
+    <img src="/images/monkeyNFT.png" alt="avatar" class="w3-image" width="300px" height="300px">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Oladele John.</h1>
     <p>Full Stack Web Developer.</p>
   </header>
@@ -72,18 +73,24 @@
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
+    <p class="w3-wide">Html</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
-    <p class="w3-wide">Web Design</p>
+    <p class="w3-wide">Css</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
     </div>
-    <p class="w3-wide">Photoshop</p>
+    <p class="w3-wide">Javascript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Php</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
+    </div>
+    
+    <br>
     
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
