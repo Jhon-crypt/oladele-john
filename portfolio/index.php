@@ -310,9 +310,9 @@
  */
 
 //cache library
-//require('../vendor/autoload.php');
-//use Phpfastcache\CacheManager;
-//use Phpfastcache\Config\ConfigurationOption;
+require('../vendor/autoload.php');
+use Phpfastcache\CacheManager;
+use Phpfastcache\Config\ConfigurationOption;
 
 //initiate the portfolio class
 class portfolio{
@@ -322,12 +322,12 @@ class portfolio{
     //define the landing page 
     public function landingPage(){
 
-        echo $this->landing_page = '<div align="center" class="w3-container">portfolio</h1>';
+        $this->landing_page = '<div align="center" class="w3-container">portfolio</h1>';
 
     }
 
     //cache the landing page
-    /*public function cacheLandingPage(){
+    public function cacheLandingPage(){
 
         CacheManager::setDefaultConfig(new ConfigurationOption([
             'path' => '', // or in windows "C:/tmp/"
@@ -354,7 +354,7 @@ class portfolio{
             $InstanceCache->deleteItem($key);
         } 
 
-    }*/
+    }
 
 }
 
@@ -362,6 +362,6 @@ $portfolio = new portfolio();
 
 $portfolio->landingPage();
 
-//$portfolio->cacheLandingPage();
+$portfolio->cacheLandingPage();
 
 ?>
