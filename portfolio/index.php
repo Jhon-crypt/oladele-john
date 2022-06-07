@@ -339,7 +339,7 @@ class portfolio{
         $Cached_page = $InstanceCache->getItem($key);
         
         if (!$Cached_page->isHit()) {
-            $Cached_page->set($this->home_page)->expiresAfter(1);//in seconds, also accepts Datetime
+            $Cached_page->set($this->landing_page)->expiresAfter(1);//in seconds, also accepts Datetime
     
             $InstanceCache->save($Cached_page); // Save the cache item just like you do with doctrine and entities
         

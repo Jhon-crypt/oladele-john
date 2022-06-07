@@ -1,8 +1,9 @@
 {
+
+  "require": {
+    "phpfastcache/phpfastcache": "^9.1"
+  },
     "require-dev": {
       "heroku/heroku-buildpack-php": "*"
-    },
-    "require": {
-        "phpfastcache/phpfastcache": "^9.1"
     }
 }
