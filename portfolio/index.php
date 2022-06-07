@@ -107,7 +107,8 @@
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
-    <br>
+
+    <br><br>
 
     <h3 class="w3-padding-16 w3-text-light-grey">My Tools</h3>
     <p class="w3-wide">VS Code</p>
