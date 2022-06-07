@@ -37,7 +37,7 @@
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-briefcase w3-xxlarge"></i>
-    <p>PHOTOS</p>
+    <p>PROJECTS</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
