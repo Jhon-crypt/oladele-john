@@ -53,10 +53,10 @@
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-home"></i></a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-user"></i></a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-briefcase"></i></a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-envelope"></i></a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-home w3-xxlarge"></i></a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-user w3-xxlarge"></i></a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-briefcase w3-xxlarge"></i></a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-envelope w3-xxlarge"></i></a>
   </div>
 </div>
 
@@ -223,7 +223,7 @@
 
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
+  <div class="w3-padding-64 w3-container" id="photos">
     <h2 class="w3-text-light-grey">Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -247,7 +247,7 @@
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-64 w3-container w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -273,7 +273,7 @@
   </div>
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-container w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <p class="w3-medium"><i class="fa fa-copyright"></i>2022 Oladele John</a></p>
