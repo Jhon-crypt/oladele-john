@@ -58,7 +58,7 @@
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <img src="/images/monkeyNFT.png" alt="boy" class="w3-image" width="992" height="1108">
+    <img src="/images/monkeyNFT.png" alt="boy" class="w3-image" width="300px" height="300px">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Oladele John.</h1>
     <p>Full Stack Web Developer.</p>
   </header>
