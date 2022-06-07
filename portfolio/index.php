@@ -88,14 +88,36 @@
       <div class="w3-dark-grey" style="height:28px;width:60%"></div>
     </div>
 
+    <p class="w3-wide">Bootstrap</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+
     <p class="w3-wide">Php</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
 
+    <p class="w3-wide">Laravel</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:10%"></div>
+    </div>
+
     <p class="w3-wide">Mysql</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+
+    <h3 class="w3-padding-16 w3-text-light-grey">My Tools</h3>
+
+    <p class="w3-wide">VS Code</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+
+    <p class="w3-wide">Git && Github</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
     </div>
     
     <br>
