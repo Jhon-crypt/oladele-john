@@ -77,15 +77,23 @@
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
+
     <p class="w3-wide">Css</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:55%"></div>
     </div>
+
     <p class="w3-wide">Javascript</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:60%"></div>
     </div>
+
     <p class="w3-wide">Php</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+
+    <p class="w3-wide">Mysql</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
