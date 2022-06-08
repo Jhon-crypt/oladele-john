@@ -241,7 +241,7 @@ class portfolio{
 
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
+  <div class="w3-padding-64 w3-container" id="photos">
     <h2 class="w3-text-light-grey">Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -265,7 +265,7 @@ class portfolio{
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-64 w3-container w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
