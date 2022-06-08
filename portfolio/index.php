@@ -176,7 +176,7 @@ class portfolio{
     
     <br>
 
-  </div>
+  
     
 <!--
 
