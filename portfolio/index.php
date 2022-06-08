@@ -101,6 +101,7 @@ class portfolio{
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
+  <br>
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <img src="/images/monkeyNFT.png" alt="avatar" class="w3-image" width="300px" height="300px">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I Am</span> Oladele John.</h1>
