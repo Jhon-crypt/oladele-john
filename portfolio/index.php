@@ -108,7 +108,7 @@ class portfolio{
   </header>
 
   <!-- About Section -->
-  <div class="w3-container w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">About</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -152,7 +152,7 @@ class portfolio{
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
     
-  </div></div>
+  </div>
     <br>
     
 <!--
@@ -240,7 +240,7 @@ class portfolio{
 
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-container" id="photos">
+  <div class="w3-padding-64 w3-content" id="photos">
     <h2 class="w3-text-light-grey">Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
