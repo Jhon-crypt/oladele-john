@@ -151,7 +151,8 @@ class portfolio{
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
-
+    
+  </div></div>
     <br>
     
 <!--
