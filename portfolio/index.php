@@ -264,7 +264,7 @@ class portfolio{
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-container w3-text-grey" id="contact">
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -290,7 +290,7 @@ class portfolio{
   </div>
   
     <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <p class="w3-medium"><i class="fa fa-copyright"></i>2022 Oladele John</a></p>
