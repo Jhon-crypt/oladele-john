@@ -241,7 +241,7 @@ class portfolio{
 
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-contENT" id="photos">
+  <div class="w3-padding-64 w3-content" id="photos">
     <h2 class="w3-text-light-grey">Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
