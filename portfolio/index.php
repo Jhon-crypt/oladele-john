@@ -265,6 +265,7 @@ class portfolio{
   </div>
 
   <!-- Contact Section -->
+  <div align="center">
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
@@ -275,6 +276,7 @@ class portfolio{
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: johnoladele690@gmail.com</p>
     </div><br>
   <!-- End Contact Section -->
+  </div>
   </div>
   
     <!-- Footer -->
