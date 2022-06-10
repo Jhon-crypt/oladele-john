@@ -70,7 +70,7 @@ class portfolio{
   <!-- Avatar image in top left corner 
   <img src="/w3images/avatar_smoke.jpg" style="width:100%">
   -->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
