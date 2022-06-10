@@ -75,8 +75,8 @@ class portfolio{
     <p>HOME</p>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
+    <i class="fa fa-superpowers w3-xxlarge"></i>
+    <p>Skills</p>
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-briefcase w3-xxlarge"></i>
@@ -92,7 +92,7 @@ class portfolio{
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-home w3-xxlarge"></i></a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-user w3-xxlarge"></i></a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-superpowers w3-xxlarge"></i></a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-briefcase w3-xxlarge"></i></a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-envelope w3-xxlarge"></i></a>
   </div>
