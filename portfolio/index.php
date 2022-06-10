@@ -114,17 +114,6 @@ class portfolio{
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-
-<!--
-    <h2 class="w3-text-light-grey">About</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I am a full stack php web developer, Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-
--->
-
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Html</p>
     <div class="w3-white">
@@ -138,7 +127,12 @@ class portfolio{
 
     <p class="w3-wide">Javascript</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+
+    <p class="w3-wide">Jquery</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
     </div>
 
     <p class="w3-wide">Bootstrap</p>
