@@ -104,8 +104,11 @@ class portfolio{
   <br>
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <img src="/images/monkeyNFT.png" alt="avatar" class="w3-image" width="300px" height="300px">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi,I Am</span> Oladele John, <br>
-    I Build Fulll Stack Web Applications
+    <h1 class="w3-jumbo"><span class="w3-hide-small">
+      <small>
+        Hi,I Am</span> Oladele John, <br>
+        I Build Fulll Stack Web Applications
+      </small>
     </h1>
   </header>
 
