@@ -10,14 +10,14 @@
 
 ** About : this module displays the landing page of the portfolio
 
-*/  
+*/
 
 /**PSUEDO ALGORITHM
  * *
  * initiate the portfolio class
- * define the landing page 
+ * define the landing page
  * cache the landing page
- * 
+ *
  * *
  */
 
@@ -31,11 +31,11 @@ class portfolio{
 
     public $landing_page;
 
-    //define the landing page 
+    //define the landing page
     public function landingPage(){
 
         $this->landing_page = '
-        
+
         <!DOCTYPE html>
     <html>
         <head>
@@ -67,7 +67,7 @@ class portfolio{
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner 
+  <!-- Avatar image in top left corner
   <img src="/w3images/avatar_smoke.jpg" style="width:100%">
   -->
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
@@ -107,7 +107,7 @@ class portfolio{
     <h1 class="w3-jumbo"><span class="w3-hide-small">
         Hi,I Am</span> Oladele John.
     </h1>
-    <p>I Build Full Stack Web Applications
+    <p>I Build Cool Full Stack Web Applications
   </header>
 
   <!-- About Section -->
@@ -152,10 +152,10 @@ class portfolio{
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
-    
+
   </div>
     <br>
-    
+
 <!--
 
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
@@ -183,7 +183,7 @@ class portfolio{
     </button>
 
 -->
-    
+
     <!-- Grid for pricing tables -->
 <!--
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
@@ -224,14 +224,14 @@ class portfolio{
 -->
     <!-- End Grid/Pricing tables -->
     </div>
-    
+
     <!-- Testimonials -->
 <!--
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
     <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
     <p>John Doe saved us from a web disaster.</p><br>
-    
+
     <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
     <p>No one is better than John Doe.</p>
@@ -239,7 +239,7 @@ class portfolio{
   <!-- End About Section -->
   </div>
 
-  
+
   <!-- Portfolio Section -->
   <div align="center">
   <div class="w3-padding-64 w3-content" id="photos">
@@ -280,7 +280,7 @@ class portfolio{
   <!-- End Contact Section -->
   </div>
   </div>
-  
+
     <!-- Footer -->
   <div align="center">
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
@@ -296,7 +296,7 @@ class portfolio{
 
 </body>
 </html>
-        
+
         ';
 
     }
@@ -307,33 +307,33 @@ class portfolio{
         CacheManager::setDefaultConfig(new ConfigurationOption([
             'path' => '', // or in windows "C:/tmp/"
         ]));
-        
+
         $InstanceCache = CacheManager::getInstance('files');
-        
+
         $key = "home_page";
         $Cached_page = $InstanceCache->getItem($key);
-        
+
         if (!$Cached_page->isHit()) {
             $Cached_page->set($this->landing_page)->expiresAfter(1);//in seconds, also accepts Datetime
-    
+
             $InstanceCache->save($Cached_page); // Save the cache item just like you do with doctrine and entities
-        
+
             echo $Cached_page->get();
             //echo 'FIRST LOAD // WROTE OBJECT TO CACHE // RELOAD THE PAGE AND SEE // ';
-         
-        } else { 
-            
+
+        } else {
+
             echo $Cached_page->get();
             //echo 'READ FROM CACHE // ';
-        
+
             $InstanceCache->deleteItem($key);
-        } 
+        }
 
     }
 
 }
 
-$portfolio = new portfolio(); 
+$portfolio = new portfolio();
 
 $portfolio->landingPage();
 
