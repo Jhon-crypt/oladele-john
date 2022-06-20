@@ -103,7 +103,7 @@ class portfolio{
   <!-- Header/Home -->
   <br>
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <img src="/images/avatar.jpg" alt="avatar" class="w3-image" width="300px" height="300px">
+    <img src="/images/avatar.jpg" alt="avatar" class="w3-circle" width="100px" height="100px">
     <h1 class="w3-jumbo"><span class="w3-hide-small">
         Hi,I Am</span> Oladele John.
     </h1>
