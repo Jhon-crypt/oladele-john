@@ -168,6 +168,11 @@ class portfolio{
         <img src="images/project1.png" style="width:100%">
         <img src="images/project1.png" style="width:100%">
       </div>
+
+      <div class="w3-half">
+        <img src="images/project1.png" style="width:100%">
+        <img src="images/project1.png" style="width:100%">
+      </div>
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
