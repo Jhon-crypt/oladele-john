@@ -166,9 +166,7 @@ class portfolio{
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="images/project1.png" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+        <img src="images/project1.png" style="width:100%">
       </div>
     <!-- End photo grid -->
     </div>
