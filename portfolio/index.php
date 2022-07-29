@@ -166,12 +166,12 @@ class portfolio{
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="images/project1.png" style="width:100%">
-        <img src="images/./images/wheelsxscreenshot.png" style="width:100%">
+        <img src="images/wheelsxscreenshot.png" style="width:100%">
       </div>
 
       <div class="w3-half">
         
-      </div>
+      </div> 
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
