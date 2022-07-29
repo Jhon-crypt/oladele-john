@@ -165,14 +165,18 @@ class portfolio{
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-        <img src="images/project1.png" style="width:100%">
-        <img src="images/wheelsxscreenshot.png" style="width:100%">
+        <a href="https://www.edtech-classroom.epizy.com/">
+          <img src="images/project1.png" style="width:100%">
+        </a>
       </div>
 
       <div class="w3-half">
-        
+        <a href="https://wheelsx.netlify.app/">
+          <img src="images/wheelsxscreenshot.png" style="width:100%">
+        </a>
       </div> 
     <!-- End photo grid -->
+
     </div>
   <!-- End Portfolio Section -->
   </div>
