@@ -168,11 +168,15 @@ class portfolio{
         <a href="https://www.edtech-classroom.epizy.com/">
           <img src="images/project1.png" style="width:100%">
         </a>
+
       </div>
 
       <div class="w3-half">
         <a href="https://wheelsx.netlify.app/">
           <img src="images/wheelsxscreenshot.png" style="width:100%">
+        </a>
+        <a href="https://techcityy.netlify.app/">
+          <img src="./images/techcityy.netlify.app_.png" style="width:100%">
         </a>
       </div> 
     <!-- End photo grid -->
