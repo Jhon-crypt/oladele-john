@@ -176,7 +176,7 @@ class portfolio{
           <img src="images/wheelsxscreenshot.png" style="width:100%">
         </a>
         <a href="https://techcityy.netlify.app/">
-          <img src="./images/techcityy.netlify.app_.png" style="width:100%">
+          <img src="./images/ttt.png" style="width:100%">
         </a>
       </div> 
     <!-- End photo grid -->
