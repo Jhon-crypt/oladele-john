@@ -123,19 +123,24 @@ class portfolio{
       <div class="w3-dark-grey" style="height:28px;width:55%"></div>
     </div>
 
+    <p class="w3-wide">Bootstrap</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+
     <p class="w3-wide">Javascript</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
     </div>
 
     <p class="w3-wide">Jquery</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
     </div>
 
-    <p class="w3-wide">Bootstrap</p>
+    <p class="w3-wide">Angular</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
     </div>
 
     <p class="w3-wide">Php</p>
@@ -179,7 +184,18 @@ class portfolio{
           <img src="./images/ttt.png" style="width:100%">
         </a>
       </div> 
-    <!-- End photo grid -->
+      <!-- End photo grid -->
+
+      <div class="w3-half">
+        <a href="https://phoneshopz.netlify.app/">
+          <img src="./images/ppp.png" style="width:100%">
+        </a>
+        <a href="https://taskstack.epizy.com/">
+          <img src="./images/task.png" style="width:100%">
+        </a>
+      </div> 
+      <!-- End photo grid -->
+
 
     </div>
   <!-- End Portfolio Section -->
